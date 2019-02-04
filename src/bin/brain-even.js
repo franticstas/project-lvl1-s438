@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import evenParity from '../even';
+import evenParity from '../games/even';
 
 evenParity();

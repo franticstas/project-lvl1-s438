@@ -1,6 +1,6 @@
 {
   "name": "webstas_lvl1",
-  "version": "1.4.0",
+  "version": "1.5.1",
   "description": "My first frontend project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/franticstas/project-lvl1-s438#readme",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
@@ -38,6 +39,7 @@
     "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   }
 }

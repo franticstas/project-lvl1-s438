@@ -7,4 +7,11 @@ webstas_lvl1 Project Brain Games
 INSTALLATION
 ------------
 
+### installing and running the game: Even parity
+
 [![asciicast](https://asciinema.org/a/FRuwq7SQfnnNxKVP8GfdC000J.svg)](https://asciinema.org/a/FRuwq7SQfnnNxKVP8GfdC000J)
+
+
+### installing and running the game: Calculator
+
+[![asciicast](https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV.svg)](https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV)
