@@ -1,0 +1,36 @@
+{
+  "name": "webstas_lvl1",
+  "version": "1.0.0",
+  "description": "My first frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franticstas/project-lvl1-s438.git"
+  },
+  "keywords": [
+    "brain-games"
+  ],
+  "author": "webstas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franticstas/project-lvl1-s438/issues"
+  },
+  "homepage": "https://github.com/franticstas/project-lvl1-s438#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+   },
+   "files": [
+    "dist"
+  ]
+}
