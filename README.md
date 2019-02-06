@@ -19,3 +19,7 @@ INSTALLATION
 ### installing and running the game: Greatest common divisor
 
 [![asciicast](https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4.svg)](https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4)
+
+### installing and running the game: Arithmetic progression
+
+[![asciicast](https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR.svg)](https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR)
