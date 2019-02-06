@@ -1,8 +1,10 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
-const printQuestionList = (generateQuestionAndAnswer, questionNumber = 0) => {
-  if (questionNumber === 3) {
+const numberOfQuestionsAsked = 3;
+
+const runGame = (generateQuestionAndAnswer, questionNumber = 0) => {
+  if (questionNumber === numberOfQuestionsAsked) {
     return true;
   }
   const pairQuestionAnswer = generateQuestionAndAnswer();
@@ -14,7 +16,7 @@ const printQuestionList = (generateQuestionAndAnswer, questionNumber = 0) => {
   const answer = readlineSync.question('Your answer: ');
   if (correctAnswer === answer) {
     console.log('Correct!');
-    return printQuestionList(generateQuestionAndAnswer, questionNumber + 1);
+    return runGame(generateQuestionAndAnswer, questionNumber + 1);
   }
 
   console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
@@ -22,10 +24,11 @@ const printQuestionList = (generateQuestionAndAnswer, questionNumber = 0) => {
 };
 
 export default (descriptionGame, generateQuestionAndAnswer) => {
-  console.log(`Welcome to the Brain Games!\n${descriptionGame}\n`);
+  console.log('Welcome to the Brain Games!');
+  console.log(`${descriptionGame}\n`);
 
   const playerName = readlineSync.question('May I have your name? ');
-  let message = '';
-  message = printQuestionList(generateQuestionAndAnswer) ? `Congratulations, ${playerName}` : `Let's try again, ${playerName}`;
+  console.log(`Hello, ${playerName}\n`);
+  const message = runGame(generateQuestionAndAnswer) ? `Congratulations, ${playerName}` : `Let's try again, ${playerName}`;
   console.log(message);
 };

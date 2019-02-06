@@ -2,7 +2,7 @@ import startGame from '..';
 import { cons } from 'hexlet-pairs';
 import randomNumber from '../utils';
 
-const descriptionGame = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 const calculatingGCD = (firstNumber, secondNumber) => {
   if (secondNumber === 0) {
@@ -11,7 +11,6 @@ const calculatingGCD = (firstNumber, secondNumber) => {
   const remainder = firstNumber % secondNumber;
   return calculatingGCD(secondNumber, remainder);
 };
-
 
 const generateQuestionAndAnswer = () => {
   const randomFirstNumber = randomNumber(1, 20);
@@ -22,4 +21,4 @@ const generateQuestionAndAnswer = () => {
   return cons(question, correctAnswer.toString());
 };
 
-export default () => startGame(descriptionGame, generateQuestionAndAnswer);
+export default () => startGame(gameDescription, generateQuestionAndAnswer);

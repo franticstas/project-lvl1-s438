@@ -6,33 +6,31 @@ const calcMultiplication = (firsNumber, secondNumber) => firsNumber * secondNumb
 const calcAddition = (firsNumber, secondNumber) => firsNumber + secondNumber;
 const calcSubtraction = (firsNumber, secondNumber) => firsNumber - secondNumber;
 
-const descriptionGame = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 const generateQuestionAndAnswer = () => {
-  const randomFirstNumber = randomNumber(1, 10);
-  const randomSecondNumber = randomNumber(1, 10);
-  const randomSign = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
+  const firstNumber = randomNumber(1, 10);
+  const secondNumber = randomNumber(1, 10);
+  const sign = randomNumber(1, 3);
   let correctAnswer;
   let question;
 
-  switch (randomSign) {
+  switch (sign) {
     case 1:
-      correctAnswer = calcAddition(randomFirstNumber, randomSecondNumber);
-      question = `${randomFirstNumber} + ${randomSecondNumber}`;
+      correctAnswer = calcAddition(firstNumber, secondNumber);
+      question = `${firstNumber} + ${secondNumber}`;
       break;
     case 2:
-      correctAnswer = calcSubtraction(randomFirstNumber, randomSecondNumber);
-      question = `${randomFirstNumber} - ${randomSecondNumber}`;
-      break;
-    case 3:
-      correctAnswer = calcMultiplication(randomFirstNumber, randomSecondNumber);
-      question = `${randomFirstNumber} * ${randomSecondNumber}`;
+      correctAnswer = calcSubtraction(firstNumber, secondNumber);
+      question = `${firstNumber} - ${secondNumber}`;
       break;
     default:
-      console.log('The problem of selecting a mathematical operation');
+      correctAnswer = calcMultiplication(firstNumber, secondNumber);
+      question = `${firstNumber} * ${secondNumber}`;
+      break;
   }
 
   return cons(question, correctAnswer.toString());
 };
 
-export default () => startGame(descriptionGame, generateQuestionAndAnswer);
+export default () => startGame(gameDescription, generateQuestionAndAnswer);

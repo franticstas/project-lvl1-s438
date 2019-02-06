@@ -1,6 +1,6 @@
 {
   "name": "webstas_lvl1",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "My first frontend project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

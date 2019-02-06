@@ -2,7 +2,7 @@ import startGame from '..';
 import { cons } from 'hexlet-pairs';
 import randomNumber from '../utils';
 
-const descriptionGame = 'Answer "yes" if number even otherwise answer "no".';
+const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
 const isEven = number => number % 2 === 0;
 
 const generateQuestionAndAnswer = () => {
@@ -12,4 +12,4 @@ const generateQuestionAndAnswer = () => {
   return cons(question, correctAnswer);
 };
 
-export default () => startGame(descriptionGame, generateQuestionAndAnswer);
+export default () => startGame(gameDescription, generateQuestionAndAnswer);
