@@ -15,3 +15,7 @@ INSTALLATION
 ### installing and running the game: Calculator
 
 [![asciicast](https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV.svg)](https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV)
+
+### installing and running the game: Greatest common divisor
+
+[![asciicast](https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4.svg)](https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4)

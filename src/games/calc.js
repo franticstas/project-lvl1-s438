@@ -1,11 +1,10 @@
 import startGame from '..';
 import { cons } from 'hexlet-pairs';
+import randomNumber from '../utils';
 
 const calcMultiplication = (firsNumber, secondNumber) => firsNumber * secondNumber;
 const calcAddition = (firsNumber, secondNumber) => firsNumber + secondNumber;
 const calcSubtraction = (firsNumber, secondNumber) => firsNumber - secondNumber;
-
-const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const descriptionGame = 'What is the result of the expression?';
 
