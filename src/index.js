@@ -21,8 +21,8 @@ const printQuestionList = (generateQuestionAndAnswer, questionNumber = 0) => {
   return false;
 };
 
-export default (rulesGame, generateQuestionAndAnswer) => {
-  console.log(`Welcome to the Brain Games!\n${rulesGame}\n`);
+export default (descriptionGame, generateQuestionAndAnswer) => {
+  console.log(`Welcome to the Brain Games!\n${descriptionGame}\n`);
 
   const playerName = readlineSync.question('May I have your name? ');
   let message = '';
