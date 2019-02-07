@@ -41,22 +41,22 @@ Correct!
 Congratulations, Roman!
 ```
 
-### installing and running the game: Even parity
+### Установка и запуск игры: Even parity
 
 <a href="https://asciinema.org/a/FRuwq7SQfnnNxKVP8GfdC000J?autoplay=1"><img src="https://asciinema.org/a/FRuwq7SQfnnNxKVP8GfdC000J.svg" width="600"/></a>
 
-### installing and running the game: Calculator
+### Установка и запуск игры: Calculator
 
 <a href="https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV?autoplay=1"><img src="https://asciinema.org/a/cjTG4EVUm4a0PFZOvAtHKYtDV.svg" width="600"/></a>
 
-### installing and running the game: Greatest common divisor
+### Установка и запуск игры: Greatest common divisor
 
 <a href="https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4?autoplay=1"><img src="https://asciinema.org/a/l4Nkddmk3HpGFjhb93AuVy2m4.svg" width="600"/></a>
 
-### installing and running the game: Arithmetic progression
+### Установка и запуск игры: Arithmetic progression
 
 <a href="https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR?autoplay=1"><img src="https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR.svg" width="600"/></a>
 
-### installing and running the game: Prime number check
+### Установка и запуск игры: Prime number check
 
 <a href="https://asciinema.org/a/z5YSmxe20vXjaKUvt68X9ChuQ?autoplay=1"><img src="https://asciinema.org/a/z5YSmxe20vXjaKUvt68X9ChuQ.svg" width="600"/></a>
