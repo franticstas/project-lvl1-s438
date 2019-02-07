@@ -23,3 +23,7 @@ INSTALLATION
 ### installing and running the game: Arithmetic progression
 
 [![asciicast](https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR.svg)](https://asciinema.org/a/9NRk5Ded1iasDoqY2MInlaYkR)
+
+### installing and running the game: Prime number check
+
+[![asciicast](https://asciinema.org/a/z5YSmxe20vXjaKUvt68X9ChuQ.svg)](https://asciinema.org/a/z5YSmxe20vXjaKUvt68X9ChuQ)
