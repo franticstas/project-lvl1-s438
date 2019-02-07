@@ -1,7 +1,7 @@
-webstas_lvl1 Project Brain Games
-=============================
+<p align="center"><h1>Проект Brain Games</h1></p>
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/c78a0eecaccfbcf4c81e/maintainability)](https://codeclimate.com/github/franticstas/project-lvl1-s438/maintainability)  [![Build Status](https://travis-ci.org/franticstas/project-lvl1-s438.svg?branch=master)](https://travis-ci.org/franticstas/project-lvl1-s438)
+
+<p align="center"><a href="https://codeclimate.com/github/franticstas/project-lvl1-s438/maintainability"><img src="https://api.codeclimate.com/v1/badges/c78a0eecaccfbcf4c81e/maintainability" /></a><a href="https://travis-ci.org/franticstas/project-lvl1-s438"><img src="https://travis-ci.org/franticstas/project-lvl1-s438.svg?branch=master" /></a><</p>
 
 
 INSTALLATION
