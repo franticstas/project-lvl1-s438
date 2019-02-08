@@ -3,15 +3,15 @@ import { cons } from 'hexlet-pairs';
 import randomNumber from '../utils';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const isPrime = (question) => {
+const isPrime = (number) => {
   const iter = (count = 2) => {
-    if (count === question) {
-      return true;
+    if (count <= Math.sqrt(number)) {
+      return number % count === 0 ? false : iter(count + 1);
     }
-    return question % count === 0 ? false : iter(count + 1);
+    return true;
   };
 
-  return question < 2 ? false : iter();
+  return number < 2 ? false : iter();
 };
 
 const generateQuestionAndAnswer = () => {
